@@ -1,0 +1,28 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .user-info {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .user-info h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .user-info p {
+    margin: 0.5rem 0 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+  }
